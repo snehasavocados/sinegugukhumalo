@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Sinegugu Khumalo</title>
+<meta name="description" content="Get in touch with Sinegugu Khumalo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,450;9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html">
+      <span class="logo-name">Sinegugu Khumalo</span>
+      <span class="logo-sub">Designed to Learn</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="blog.html">Blog</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+      <div class="eyebrow">Contact</div>
+      <h1>Let's talk</h1>
+      <p class="lede">Whether it's about research, teaching, technology, or work — I'd like to hear from you.</p>
+
+      <div class="contact-grid">
+        <div>
+          <ul class="contact-list">
+            <li><a href="mailto:hello@sinegugukhumalo.com">hello@sinegugukhumalo.com</a></li>
+            <li><a href="https://www.linkedin.com/in/sinegugu-khumalo" target="_blank" rel="noopener">LinkedIn — Sinegugu Khumalo</a></li>
+            <li>KwaZulu-Natal, South Africa</li>
+          </ul>
+        </div>
+
+        <!--
+          This form has no backend — GitHub Pages only serves static files.
+          It currently submits via mailto:, which opens the visitor's email app.
+          To collect submissions properly once hosted, connect it to a free
+          service like Formspree or Netlify Forms — see README.md.
+        -->
+        <form action="mailto:hello@sinegugukhumalo.com" method="post" enctype="text/plain">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>&copy; 2026 Sinegugu Khumalo</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/sinegugu-khumalo" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:hello@sinegugukhumalo.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

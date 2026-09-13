@@ -15,14 +15,14 @@ A personal website built with plain HTML, CSS, and JS. No build step, no framewo
 
 1. Create a new **public** repository on GitHub — e.g. `personal-site`.
 2. Upload all files in this folder to the repository root (drag-and-drop on github.com works, or use `git`):
-```bash
+   ```bash
    git init
    git add .
    git commit -m "Initial site"
    git branch -M main
    git remote add origin https://github.com/<your-username>/<repo-name>.git
    git push -u origin main
-```
+   ```
 3. In the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, branch `main`, folder `/ (root)`. Save.
 4. GitHub will publish the site at `https://<your-username>.github.io/<repo-name>/` within a minute or two. That's your live link — no domain setup needed.
 
